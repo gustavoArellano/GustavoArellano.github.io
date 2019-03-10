@@ -1,0 +1,471 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Righteous', cursive;
+    scroll-behavior: smooth;
+}
+
+#header {
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    opacity: 0.88;
+}
+
+#header h1 {
+    cursor: default;
+    color: white;
+}
+
+#links {
+    margin-right: 20px;    
+}
+
+#links ul li{
+    display: inline-block;
+}
+
+#links ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 0px solid white; 
+    transition: border 150ms, padding 150ms;
+}
+
+#links ul li a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* Landing Page */
+#landing {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 20px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    padding: 50px 15px;
+}
+
+.aboutMe img {
+    margin-right: 50px;
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.info {
+    width: 60%;
+    padding: 10px;
+    color: white;
+}
+
+.info h1 {
+    font-size: 50pt;
+    text-shadow: 4px 4px black;
+}
+
+.info p {
+    padding: 10px 0;
+}
+
+/* Projects */
+#projects {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/project.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    /* CHANGE HEIGHT TO 100% WHEN ADDING MORE THAN 4 PROJECTS;  */
+    /* height: 100%; */
+    width: 100%;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;    
+}
+
+#projects h1 {
+    opacity: 0;
+    margin: 30px 0px 10px 0px;
+    color: white;
+    font-size: 50pt;
+    text-shadow: 4px 4px black;
+}
+
+.project {
+    overflow: auto;
+    opacity: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+    padding: 0px auto;
+    border: 1px solid rgb(97, 97, 97);
+    background-color: rgb(24, 24, 24);
+    width: 20%;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.5);
+    
+}
+
+
+.projectInfo {
+    overflow: auto;
+    padding: 10px;
+}
+
+.projectInfo h6 {
+    color: white;
+    border: 2px solid white;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: 180px;
+    align-self: flex-start;
+}
+
+/* CONTACT ME */
+#contactMe {
+    background: url("../images/contactMe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+#contactMe h1 {
+    opacity: 0;
+    color: white;
+    font-size: 50pt;
+    text-shadow: 4px 4px black;
+    margin: 20px 0px;
+}
+
+.social {
+    opacity: 0;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid rgb(97, 97, 97);
+    padding: 20px;  
+    margin-top: 100px;  
+}
+
+.social h4 {
+    color: white;
+    margin: auto 0;
+    margin-bottom: 50px;
+}
+
+.social p {
+    color: white;
+}
+
+.fa-linkedin {
+    color: #3176B0;
+    margin-left: 20px;
+}
+
+.fa-envelope-square {
+    color: #DB5140;
+    margin-left: 20px;
+}
+
+.fa-github-square {
+    color: gray;
+    margin-left: 20px;
+}
+
+.fa-file-pdf {
+    color: #9C1E14;
+    margin-left: 20px;
+}
+
+.social .fa-linkedin, .fa-envelope-square, .fa-github-square, .fa-file-pdf {
+    transition: filter 200ms;
+}
+.social .fa-linkedin:hover, .fa-envelope-square:hover, .fa-github-square:hover, .fa-file-pdf:hover {
+    filter: brightness(50%);
+}
+
+.onlyOnMobile {
+    display: none;
+}
+
+.update {
+    color: white;
+    cursor: default;
+    padding: 0px;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+@media only screen and (max-width: 480px) { 
+    #landing {
+        background-attachment: fixed;
+        background-position: center;
+        height: 100%;
+    }
+
+    #header h1, #links {
+        margin: auto;
+        padding: 0px;
+    }
+
+    .aboutMe img {
+        margin: auto;
+        width: 200px;
+        height: 180px;
+    }
+
+    .info {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .info h1 {
+        margin: auto;
+        padding: 0;
+        font-size: 40px;
+    }
+
+    .info h6 {
+        margin-top: 50px;
+    }
+
+    #projects {
+        text-align: center; 
+        height: 100%;  
+        padding: 30px; 
+        background-attachment: fixed;
+        background-position: center;
+    
+    }
+    
+    #projects h1 {
+        font-size: 40px;
+        margin-top: 130px;
+        margin-bottom: -10px;
+    }
+    
+    .project {
+        margin: auto;
+        margin-top: 40px;
+        width: 100%;
+        height: 80%;
+        flex-wrap: wrap;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.979);
+        
+    }
+    
+    .projectInfo {
+        padding: 20px;
+    }
+
+    #contactMe {
+        padding: 30px;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+     
+    #contactMe h1 {
+        font-size: 40px;
+        margin: 125px 0 -80px 0 ;
+    }
+    
+    .social {
+        margin: 0 auto;
+        padding: 20px;  
+        margin-top: 100px;  
+        background-color: transparent;
+        border: none;
+    }
+    
+    .hideInMobile {
+        display: none;
+    } 
+
+    .onlyOnMobile {
+        display: inline-block;
+        justify-content: space-evenly;
+        padding: 0 auto;
+        margin: 20px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 481px) {
+    #landing {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+
+    #header {
+        padding: 5px;
+    }
+
+    #links {
+        margin-top: 10px;
+    }
+
+    .aboutMe img {
+        margin: auto;
+        width: 200px;
+        height: 180px;
+    }
+
+    .info {
+        padding: 0px;
+    }
+
+    .info h1 {
+        margin: auto;
+        padding: 0;
+        font-size: 50px;
+    }
+
+    .info h6 {
+        margin-top: 50px;
+    }
+
+    #projects {
+        text-align: center; 
+        height: 100%;  
+        padding: 30px; 
+        background-attachment: fixed;
+        background-position: center;
+    
+    } 
+    
+    #projects h1 {
+        font-size: 40px;
+        margin: 40px;
+    }
+
+    .project img {
+        height: 200px;
+    }
+    
+    .project {
+        flex-wrap: wrap;
+        margin: 20px; 
+        width: 40%;
+        height: 500px;
+    }
+    
+    .projectInfo {
+        flex-wrap: wrap;
+        padding: 15px;
+        
+    }
+
+    #contactMe {
+        padding: 30px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .mobileOnly {
+        display: none;
+    }
+     
+    #contactMe h1 {
+        font-size: 40px;
+        margin: 40px 0 -80px 0 ;
+    }
+    
+    .social {
+        margin: 0 auto;
+        margin-top: 150px;
+        padding: 20px;    
+        width: 75%;
+    }
+
+    .social h4 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .social p {
+        margin: 20px;
+    }
+
+    .onlyOnMobile {
+        display: none;
+    }
+
+    .tablet {
+        color: white;
+    }
+
+    .fullScreen {
+        display: none;
+    }
+
+    .update {
+        margin: 0px;
+        margin-top: 100px;
+        padding: 0px;
+        display: fixed;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tablet {
+        display: none;
+    }
+
+    .fullScreen {
+        color: white;
+    }
+
+    .social {
+        width: 50%;
+    }
+
+    .project {
+        vertical-align: top;
+        margin: 50px;
+        margin-top: 5px;
+        width: 30%;
+        height: 600px;
+    }
+
+    .projectInfo {
+        padding: 20px;
+        overflow: auto;
+    }
+
+    #contactMe {
+        padding: 30px;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+}
+
+
+
+
