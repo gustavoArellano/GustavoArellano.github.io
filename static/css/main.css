@@ -221,10 +221,30 @@
         height: 100%;
     }
 
+    #header {
+        padding: 10px 0px 0px 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #header h1 {
+        font-size: 20pt;
+    }
+
+    #links ul li a {
+        padding: 0px;
+        margin: 0px 25px 0px 25px;
+    }
+
     #header h1, #links {
         margin: auto;
         padding: 0px;
     }
+
+    /* #header #links {
+        justify-content: center;
+    } */
+
 
     .aboutMe img {
         margin: auto;
@@ -259,7 +279,7 @@
     
     #projects h1 {
         font-size: 40px;
-        margin-top: 130px;
+        margin-top: 65px;
         margin-bottom: -10px;
     }
     
@@ -286,7 +306,7 @@
      
     #contactMe h1 {
         font-size: 40px;
-        margin: 125px 0 -80px 0 ;
+        margin: 75px 0 -80px 0 ;
     }
     
     .social {
