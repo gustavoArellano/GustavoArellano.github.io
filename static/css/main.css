@@ -210,7 +210,6 @@
     color: white;
     cursor: default;
     padding: 0px;
-    margin: auto;
     margin-top: 200px;
 
 }
@@ -282,7 +281,7 @@
         padding: 30px;
         background-attachment: fixed;
         background-position: center;
-        height: 100vh;
+        height: 100%;
     }
      
     #contactMe h1 {
@@ -308,6 +307,10 @@
         padding: 0 auto;
         margin: 20px;
         
+    }
+
+    .update {
+        margin: 50px;
     }
 
 }
