@@ -340,6 +340,7 @@
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
         background-attachment: fixed;
         background-position: center;
+        background-repeat: no-repeat;
         height: 100vh;
     }
 
@@ -456,6 +457,14 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    #landing {
+        background: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        padding: 230px 20px 0px 20px;
+    }
+
     .tablet {
         display: none;
     }
@@ -468,11 +477,26 @@
         width: 50%;
     }
 
+    /* Projects */
+#projects {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/project.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    /* CHANGE HEIGHT TO 100% WHEN ADDING MORE THAN 4 PROJECTS;  */
+    /* height: 100%; */
+    width: 100%;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;    
+}
+
     .project {
         vertical-align: top;
         margin: 50px;
         margin-top: 5px;
-        width: 30%;
+        width: 20%;
         height: 600px;
     }
 
@@ -481,11 +505,29 @@
         overflow: auto;
     }
 
+    /* CONTACT ME */
+    #contactMe {
+    background: url("../images/contactMe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20x;
+}
+
     #contactMe {
         padding: 30px;
         background-attachment: fixed;
         background-position: center;
         height: 100vh;
+    }
+
+    .social {
+        width: 700px;
+    }
+
+    #contactMe .desktopConnect {
+        margin-top: 60px;
     }
 }
 
