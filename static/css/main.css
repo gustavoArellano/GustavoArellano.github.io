@@ -386,7 +386,7 @@
     }
     
     .project {
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         margin: 20px; 
         width: 40%;
         height: 500px;
@@ -451,7 +451,7 @@
     }
 } */
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
     #landing {
         background: url("../images/background.jpg");
         background-repeat: no-repeat;
@@ -523,7 +523,7 @@
     #contactMe .desktopConnect {
         margin-top: 60px;
     }
-}
+}  */
 
 
 
