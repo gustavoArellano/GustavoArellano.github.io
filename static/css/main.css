@@ -6,7 +6,7 @@
 }
 
 /* HEADER */
-#header {
+/* #header {
     padding: 10px 10px 10px 15px;
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -20,13 +20,13 @@
 #header h1 {
     cursor: default;
     color: white;
-}
+} */
 
 /* #links {
     margin-right: 10px;    
 } */
 
-#links ul li{
+/* #links ul li{
     display: inline-block;
     margin: 15px 15px 0px 15px;
 }
@@ -37,32 +37,32 @@
     color: white;
     border-bottom: 0px solid white; 
     transition: border 150ms, padding 150ms;
-}
+} */
 
-#links ul li a:hover {
+/* #links ul li a:hover {
     border-bottom: 2px solid white;
     padding-bottom: 5px;
-}
+} */
 
 /* ABOUT PAGE */
-#about {
+/* #about {
     background: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     padding: 100px 20px;
-}
+} */
 
-.aboutMe {
+/* .aboutMe {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 85%;
     margin: auto;
     padding: 50px 15px;
-}
+} */
 
-.aboutMe img {
+/* .aboutMe img {
     margin-right: 50px;
     width: 220px;
     height: 200px;
@@ -74,16 +74,16 @@
     width: 60%;
     padding: 10px;
     color: white;
-}
+} */
 
-.info h1 {
+/* .info h1 {
     font-size: 50pt;
     text-shadow: 4px 4px black;
 }
 
 .info p {
     padding: 10px 0;
-}
+} */
 
 /* Projects */
 /* #projects {
