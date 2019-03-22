@@ -6,7 +6,7 @@
 }
 
 /* HEADER */
-/* #header {
+#header {
     padding: 10px 10px 10px 15px;
     background-color: rgb(0, 0, 0);
     display: flex;
@@ -20,7 +20,7 @@
 #header h1 {
     cursor: default;
     color: white;
-} */
+}
 
 /* #links {
     margin-right: 10px;    
