@@ -274,7 +274,7 @@
     }
 
     .project .gif {
-        height: 220px;
+        height: 180px;
     }
 
     .projectInfo {
@@ -460,6 +460,10 @@
         margin: 30px 5px;
         width: 330px;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.925);
+    }
+
+    .project .gif {
+        height: 200px;
     }
 }
 
