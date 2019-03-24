@@ -160,7 +160,6 @@
 .social h4 {
     color: white;
     margin: auto 0;
-    margin-bottom: 50px;
 }
 
 .social p {
@@ -405,6 +404,14 @@
         margin: 0px;
         width: 600px;
         height: 325px;
+    }
+
+    .social h4 {
+        margin-bottom: 15px;
+    }
+
+    .hideInMobile {
+        margin-bottom: 30px;
     }
 } 
 
