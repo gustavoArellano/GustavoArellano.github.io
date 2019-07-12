@@ -58,22 +58,10 @@
     margin: auto;
 }
 
-.aboutMe img {
-    margin-right: 50px;
-    width: 220px;
-    height: 200px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 3px black;
-}
-
 .info {
     width: 60%;
     padding: 10px;
     color: white;
-}
-
-.info h1 {
-    text-shadow: 2px 2px black;
 }
 
 .info p {
@@ -102,13 +90,12 @@
 
 .project {
     overflow: auto;
-    opacity: 0;
     padding: 0px auto;
     border: 1px solid rgb(97, 97, 97);
     background-color: rgb(24, 24, 24);
 }
 
-.project .gif {
+.project .projectImage {
     width: 100%;
     align-self: flex-start;
 }
@@ -236,8 +223,9 @@
 
     .aboutMe img {
         margin: 20px;
-        width: 180px;
-        height: 160px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
     }
 
     .info h1 {
@@ -273,8 +261,8 @@
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.925);
     }
 
-    .project .gif {
-        height: 180px;
+    .project .projectImage {
+        height: 280px;
     }
 
     .projectInfo {
@@ -340,6 +328,12 @@
     .aboutMe {
         margin: auto;
         margin-top: 80px;
+    }
+
+    .aboutMe img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
     }
 
     .info h1 {
@@ -443,6 +437,12 @@
         font-size: 14pt;
     }
 
+    .aboutMe img {
+        height: 280px;
+        width: 280px;
+        border: 50%;
+    }
+
     /* PROJECT PAGE */
     #projects {
         display: flex;
@@ -462,8 +462,8 @@
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.925);
     }
 
-    .project .gif {
-        height: 200px;
+    .project .projectImage {
+        height: 330px;
     }
 }
 
